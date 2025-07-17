@@ -31,7 +31,7 @@ function initProject() {
   fs.mkdirSync('.magknit', { recursive: true })
   fs.writeFileSync(`.magknit/config.json`, JSON.stringify({ branches: ['main'], current: 'main' }, null, 2))
   fs.writeFileSync('.magknit_ignore', '# Top-level files and directories to ignore\nnode_modules/\ndist/\n')
-  console.log('Magknit project initialized.')
+  console.log('Magknit project initialized. You are now on branch "main".')
 }
 
 function switchBranch(branch) {
