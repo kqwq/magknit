@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "bin": {
-    "magknit": "index.js"
+    "magknit": "./bin/magknit"
   },
   "scripts": {
     "start": "node index.js",
