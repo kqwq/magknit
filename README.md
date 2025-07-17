@@ -1,8 +1,6 @@
 # magknit
 
-A simple branch management tool for project files. **Not tested that much.**
-
-Unlike git, magknit focuses on lightweight file-based branching without full version history. Perfect for quick experimentation with different versions of your project files.
+A simple yet buggy version control CLI for your project.
 
 ## Installation
 
@@ -39,10 +37,6 @@ Magknit stores your project states in `.magknit/branches/` directories. When you
 ## Limitations
 
 - Only handles top-level files (no subdirectories yet)
-- No automatic file restoration when switching branches
-- No merge capabilities
-- No commit history or diffs
+- No other commands than the ones listed above
 
-Yeah, those are all the commands for now.
-
-**WARNING: This was vibe-coded in less than an hour**
+**WARNING: This was vibe-coded in about an hour. LET THAT SCARE YOU.**
