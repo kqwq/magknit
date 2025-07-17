@@ -21,6 +21,7 @@ node index.js <command>
 - `magknit init` - Initialize a new magknit project
   - Creates `.magknit/` directory with config
   - Creates `.magknit_ignore` file (like `.gitignore`)
+  - Defaults to branch "main"
 
 - `magknit switch <branch>` - Switch to a different branch
   - Saves current files to `.magknit/branches/<current-branch>/`
@@ -29,10 +30,7 @@ node index.js <command>
 
 ## How it works
 
-Magknit stores your project states in `.magknit/branches/` directories. When you switch branches, it:
-1. Saves your current files to the current branch folder
-2. Switches the active branch in the config
-3. You manually restore files from the new branch as needed
+Magknit stores your project states in `.magknit/branches/` directories.
 
 ## Limitations
 
